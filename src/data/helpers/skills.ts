@@ -25,6 +25,15 @@ export const apolloGraphql = createSkillFactory({
   url: 'https://www.apollographql.com/',
 });
 
+
+export const ansible = createSkillFactory({
+  name: 'Ansible',
+  icon: 'simple-icons:ansible',
+  iconColor: '#311C87',
+  url: 'https://www.apollographql.com/',
+});
+
+
 export const astro = createSkillFactory({
   name: 'Astro',
   icon: 'simple-icons:astro',
@@ -32,74 +41,112 @@ export const astro = createSkillFactory({
   url: 'https://astro.build/',
 });
 
-export const chakraUi = createSkillFactory({
-  name: 'Chakra UI',
-  icon: 'simple-icons:chakraui',
-  iconColor: '#319795',
-  url: 'https://chakra-ui.com/',
+export const aws = createSkillFactory({
+  name: 'Amazon Web Services',
+  icon: 'simple-icons:amazonaws',
+  iconColor: '#232F3E',
+  url: 'https://astro.build/',
 });
 
-export const cypress = createSkillFactory({
-  name: 'Cypress',
-  icon: 'simple-icons:cypress',
-  iconColor: '#17202C',
-  url: 'https://www.cypress.io/',
+export const azure = createSkillFactory({
+  name: 'Azure',
+  icon: 'simple-icons:microsoftazure',
+  iconColor: '#0078D4',
+  url: 'https://azure.com/',
+});
+
+export const azuredevops = createSkillFactory({
+  name: 'Azure DevOps',
+  icon: 'simple-icons:azuredevops',
+  iconColor: '#0078D7',
+  url: 'https://azure.com/',
+});
+
+export const blazor = createSkillFactory({
+  name: 'Blazor',
+  icon: 'simple-icons:blazor',
+  iconColor: '#0078D4',
+  url: 'https://azure.com/',
+});
+
+export const csharp = createSkillFactory({
+  name: 'CSharp',
+  icon: 'simple-icons:csharp',
+  iconColor: '#512BD4',
+  url: 'https://azure.com/',
+});
+
+export const dotnet = createSkillFactory({
+  name: 'Dot NET',
+  icon: 'simple-icons:dotnet',
+  iconColor: '#512BD4',
+  url: 'https://azure.com/',
 });
 
 export const eslint = createSkillFactory({
   name: 'ESLint',
   icon: 'simple-icons:eslint',
+  iconColor: '#F05032',
+  url: 'https://git-scm.com/',
+});
+
+export const Go = createSkillFactory({
+  name: 'Go',
+  icon: 'simple-icons:eslint',
+  iconColor: '#00ADD8',
+  url: 'https://git-scm.com/',
+});
+
+export const Git = createSkillFactory({
+  name: 'Git',
+  icon: 'simple-icons:git',
   iconColor: '#4B32C3',
+  url: 'https://git-scm.com/',
+});
+
+export const Hasura = createSkillFactory({
+  name: 'Hasura',
+  icon: 'simple-icons:hasura',
+  iconColor: '#1EB4D4',
+  url: 'https://hasura.io/'
+});
+
+
+
+export const helm = createSkillFactory({
+  name: 'Helm',
+  icon: 'simple-icons:helm',
+  iconColor: '#0F1689',
+  url: 'https://helm.com/',
+});
+
+
+export const kubernetes = createSkillFactory({
+  name: 'Kubernetes',
+  icon: 'simple-icons:kubernetes',
+  iconColor: '##326CE5',
   url: 'https://eslint.org/',
 });
 
-export const firebase = createSkillFactory({
-  name: 'Firebase',
-  icon: 'simple-icons:firebase',
-  iconColor: '#FFCA28',
-  url: 'https://firebase.google.com/',
+export const npm = createSkillFactory({
+  name: 'NPM',
+  icon: 'simple-icons:npm',
+  iconColor: '##326CE5',
+  url: 'https://www.npmjs.com/',
 });
 
-export const jest = createSkillFactory({
-  name: 'Jest',
-  icon: 'simple-icons:jest',
-  iconColor: '#C21325',
-  url: 'https://jestjs.io/',
-});
-
-export const mongoDb = createSkillFactory({
-  name: 'MongoDB',
-  icon: 'simple-icons:mongodb',
-  iconColor: '#47A248',
-  url: 'https://www.mongodb.com/',
-});
-
-export const nestJs = createSkillFactory({
-  name: 'NestJS',
-  icon: 'simple-icons:nestjs',
-  iconColor: '#E0234E',
-  url: 'https://nestjs.com/',
-});
-
-export const nextJs = createSkillFactory({
-  name: 'Next.js',
-  icon: 'simple-icons:nextdotjs',
-  iconColor: '#000000',
-  url: 'https://nextjs.org/',
-});
-
-export const nx = createSkillFactory({
-  name: 'Nx',
-  icon: 'simple-icons:nx',
+export const octopusdeploy = createSkillFactory({
+  name: 'Octopus Deploy',
+  icon: 'simple-icons:octopusdeploy',
   iconColor: '#143055',
-  url: 'https://nx.dev/',
+  url: 'https://octopusdeploy.com',
 });
 
-export const pnpm = createSkillFactory({
-  name: 'pnpm',
-  icon: 'simple-icons:pnpm',
-  iconColor: '#F69220',
-  url: 'https://pnpm.io/',
+export const openai = createSkillFactory({
+  name: 'OpenAI',
+  icon: 'simple-icons:openai',
+  iconColor: '#412991',
+  url: 'https://octopusdeploy.com',
 });
 
 export const postgreSql = createSkillFactory({
@@ -109,58 +156,54 @@ export const postgreSql = createSkillFactory({
   url: 'https://www.postgresql.org/',
 });
 
-export const prettier = createSkillFactory({
-  name: 'Prettier',
-  icon: 'simple-icons:prettier',
-  iconColor: '#F7B93E',
-  url: 'https://prettier.io/',
+export const proget = createSkillFactory({
+  name: 'ProGet',
+  icon: 'simple-icons:postgresql',
+  iconColor: '#4169E1',
+  url: 'https://www.postgresql.org/',
 });
 
-export const react = createSkillFactory({
-  name: 'React.js',
-  icon: 'simple-icons:react',
-  iconColor: '#61DAFB',
-  url: 'https://reactjs.org/',
+
+
+export const pulumi = createSkillFactory({
+  name: 'Pulumi',
+  icon: 'simple-icons:pulumi',
+  iconColor: '#8A3391',
+  url: 'https://pulumi.com',
 });
 
-export const reactQuery = createSkillFactory({
-  name: 'React Query',
-  icon: 'simple-icons:reactquery',
-  iconColor: '#FF4154',
-  url: 'https://tanstack.com/query',
+export const sqlserver = createSkillFactory({
+  name: 'SQL Server',
+  icon: 'simple-icons:microsoftsqlserver',
+  iconColor: '#4E9BCD',
+  url: 'https://sonarqube.org',
 });
 
-export const sass = createSkillFactory({
-  name: 'SASS',
-  icon: 'simple-icons:sass',
-  iconColor: '#CC6699',
-  url: 'https://sass-lang.com/',
+export const sonarqube = createSkillFactory({
+  name: 'SonarQube',
+  icon: 'simple-icons:sonarqube',
+  iconColor: '#4E9BCD',
+  url: 'https://sonarqube.org',
 });
 
-export const supabase = createSkillFactory({
-  name: 'Supabase',
-  icon: 'simple-icons:supabase',
-  iconColor: '#3ECF8E',
-  url: 'https://supabase.io/',
+export const teamcity = createSkillFactory({
+  name: 'Teamcity',
+  icon: 'simple-icons:teamcity',
+  iconColor: '#000000',
+  url: 'https://jetbrains.com/',
 });
 
-export const tailwindCss = createSkillFactory({
-  name: 'Tailwind CSS',
-  icon: 'simple-icons:tailwindcss',
-  iconColor: '#06B6D4',
+export const terraform = createSkillFactory({
+  name: 'Terraform',
+  icon: 'simple-icons:terraform',
+  iconColor: '#844FBA',
   url: 'https://tailwindcss.com/',
 });
+
 
 export const typescript = createSkillFactory({
   name: 'TypeScript',
   icon: 'simple-icons:typescript',
   iconColor: '#3178C6',
   url: 'https://www.typescriptlang.org/',
-});
-
-export const vue = createSkillFactory({
-  name: 'Vue.js',
-  icon: 'simple-icons:vuedotjs',
-  iconColor: '#4FC08D',
-  url: 'https://vuejs.org/',
 });

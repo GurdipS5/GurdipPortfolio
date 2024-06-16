@@ -3,20 +3,17 @@ import type { ReadonlyDeep } from 'type-fest';
 import {
   apolloGraphql,
   astro,
-  chakraUi,
-  cypress,
-  eslint,
-  firebase,
-  mongoDb,
-  nestJs,
-  pnpm,
+  azure,
+  aws,
+  blazor,
+  csharp,
+  dotnet,
+  helm,
+  kubernetes,
+  octopusdeploy,
+  teamcity,
   postgreSql,
-  prettier,
-  react,
-  sass,
-  supabase,
-  tailwindCss,
-  typescript,
+  Go,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -30,48 +27,82 @@ const skillsSectionData = {
     {
       title: 'I already know',
       skills: [
-        react({
+
+        azure({
+          level: 5,
+          description:
+            '',
+        }),
+
+        aws({
           level: 5,
           description:
             'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
         }),
-        typescript({
-          level: 4,
-          description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+
+        blazor({
+          level: 5,
+          description:
+            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
         }),
-        sass({
+
+        csharp({
+          level: 5,
+          description:
+            'I am proficient in C#, with extensive experience in building robust, scalable applications. My expertise spans various aspects of C# development, including OOP and Web Development',
+        }),
+
+        dotnet({
+          level: 5,
+          description:
+            'I have vast expertise in the build and deployment of dotnet core applications, up to dotnet core 8.',
+        }),
+
+        helm({
+          level: 5,
+          description:
+            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
+        }),
+
+        kubernetes({
+          level: 5,
+          description:
+            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
+        }),
+
+        octopusdeploy({
+          level: 5,
+          description:
+            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
+        }),
+
+
+        teamcity({
+          level: 5,
+          description:
+            'I am adept at using TeamCity for continuous integration and continuous deployment (CI/CD), ensuring streamlined and efficient development workflows. My expertise includes build automation and artifact management.',
+        }),
+
+
+        helm({
           level: 4,
           description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
         }),
-        chakraUi({ level: 5 }),
-        tailwindCss({ level: 3 }),
-        prettier({ level: 5 }),
-        eslint({
-          level: 4,
-          description:
-            'Nulla tempor turpis at vehicula pharetra. Vestibulum tellus tortor, commodo et suscipit id, lobortis id nunc.',
-        }),
-        nestJs({
-          level: 3,
-          description:
-            'Praesent feugiat ultricies iaculis. In posuere vehicula odio, sed consequat velit porta viverra.',
-        }),
+
         postgreSql({ level: 2 }),
-        mongoDb({ level: 1 }),
-        firebase({ level: 1 }),
-        pnpm({ level: 3 }),
+
+
       ],
     },
     {
       title: 'I want to learn',
-      skills: [apolloGraphql(), astro(), supabase(), cypress()],
+      skills: [apolloGraphql(), Go(), astro(),  ],
     },
     {
       title: 'I speak',
       skills: [
-        { icon: 'circle-flags:pl', name: 'Polish - native' },
-        { icon: 'circle-flags:us', name: 'English - C1' },
-        { icon: 'circle-flags:es-variant', name: 'Spanish - B1' },
+        { icon: 'circle-flags:uk', name: 'English' },
+        { icon: 'circle-flags:in', name: 'Punjabi' }
       ],
     },
   ],

@@ -1,18 +1,20 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
+import { facebook, github, linkedin, twitter, website } from '../helpers/links';
 import {
-  chakraUi,
-  eslint,
-  firebase,
-  nextJs,
-  nx,
-  pnpm,
-  react,
-  reactQuery,
-  tailwindCss,
-  typescript,
-  vue,
+  azure,
+  azuredevops,
+  aws,
+  csharp,
+  helm,
+  kubernetes,
+  openai,
+  octopusdeploy,
+  proget,
+  sonarqube,
+  teamcity,
+  terraform
+
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -24,57 +26,54 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
+      role: 'DevOps Lead',
+      company: 'Virgin Money',
+      image: import('@/assets/logos/virginmoney.jpg'),
       dates: [new Date('2020-02'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        - Led a seamless migration of 50+ applications to AWS/Azure, resulting in a 30% reduction in infrastructure costs and improved scalability.
+        - Implemented efficient resource allocation strategies, leading to a 30% reduction in cloud infrastructure costs.
+        - Successfully designed and deployed highly available Kubernetes clusters in production environments, supporting over 100 microservices.
+        - Developed common Terraform modules, reducing code duplication and time to release and leading to an increase in developer productivity and code standardisation, reducing bugs and time to deployment.
+        - Worked as a DevOps Lead for the Dynamics 365 team, to improve their release management processes, automate TOIL and instil a DevOps culture of experimentation.
+        - Built a Research and Development function to look at innovation and improving our digital products. This includes using AI, Machine Learning and Data Engineering in Azure.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [azure(), kubernetes(), helm(), openai(), terraform() ],
       },
       links: [facebook({ url: '#' }), linkedin({ url: '#' })],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
-      image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      role: 'Senior DevOps Engineer',
+      company: 'Maritech',
+      image: import('@/assets/logos/sea.jpg'),
+      dates: [new Date('2019-04'), new Date('2019-05')],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+        - Integrated Veracode into Azure DevOps CICD pipelines, thereby improving our security posture, compliance and ability to win new customers
+        - Integrated Kubernetes with best-in-class security tooling (e.g., Istio, Calico) to enforce network policies and secure inter-service communication, achieving compliance with industry standards.
+        - Championed an AppSec program with developers, to implement secure development practices, resulting in less CI failures.
+        - Created Terraform modules for an Akamai CDN/DDOS deployment, to protect against bot attacks. This improved productivity and reduced repetition.
+        - Deployed a comprehensive monitoring and alerting system using Prometheus and Grafana, reducing system downtime by 40% through proactive incident management.
+        - Implemented a robust CI/CD pipeline using Azure DevOps, which reduced the deployment frequency from monthly to daily, enhancing product delivery speed and reliability.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [csharp(), kubernetes(), helm(), sonarqube(), azuredevops(), octopusdeploy(), proget(), teamcity() ]
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
+      links: [website({ url: '#' }) ],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      image: import('@/assets/logos/gitlab-logo.png'),
-      dates: [new Date('2016-09'), new Date('2019-04')],
+      role: 'Senior DevOps Engineer',
+      company: 'Reed Technology',
+      image: import('@/assets/logos/reed.png'),
+      dates: [new Date('2016-09'), new Date('2016-10')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+      - Worked on a cost cutting campaign,
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [aws(), azuredevops() ]
       },
       links: [twitter({ url: '#' }), github({ url: '#' })],
     },

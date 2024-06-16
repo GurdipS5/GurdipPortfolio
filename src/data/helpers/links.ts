@@ -93,10 +93,7 @@ export const stackoverflow = createLinkFactory({
 
 // DESIGN
 
-export const instagram = createLinkFactory({
-  name: 'Instagram',
-  icon: 'fa6-brands:instagram',
-});
+
 export const behance = createLinkFactory({
   name: 'Behance',
   icon: 'fa6-brands:behance',
@@ -107,10 +104,6 @@ export const dribbble = createLinkFactory({
   icon: 'fa6-brands:dribbble',
 });
 
-export const figma = createLinkFactory({
-  name: 'Figma',
-  icon: 'fa6-brands:figma',
-});
 
 // MUSIC
 
