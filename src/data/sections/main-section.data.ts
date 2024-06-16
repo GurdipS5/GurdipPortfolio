@@ -24,8 +24,10 @@ const mainSectionData = {
     { label: 'Website', value: 'https://gurdipsira.dev', url: '/', fullRow: true },
   ],
   description:
-    'I am a dedicated and passionate DevOps Lead with a track record of driving seamless integration between development and operations. With over ten years of experience in the field, I specialize in implementing robust CI/CD pipelines, automating infrastructure, and fostering a collaborative DevOps culture within teams.',
-  tags: [{ name: 'Not open for work' }, { name: 'Available for mentoring' }, { name: 'Working on side projects and certs.' }],
+    'Ever since I wrote my first line of code in high school, I\'ve been captivated by the power of technology to transform ideas into reality. My journey into the world of DevOps began with a fascination for how infrastructure and development can seamlessly work together to deliver robust, scalable, and efficient solutions. Over the past decade, I have dedicated myself to mastering the art of DevOps, spearheading initiatives that have revolutionized deployment pipelines, enhanced system reliability, and optimized workflows.\n' +
+    '\n' +
+    'From automating complex CI/CD processes to implementing comprehensive monitoring solutions, my career is a testament to my passion for continuous improvement and innovation. As a DevOps lead, I have successfully led cross-functional teams, driven cloud migration projects, and ensured the stability and performance of mission-critical applications. Join me as I share the milestones, projects, and experiences that define my professional journey and showcase my commitment to excellence in the ever-evolving field of DevOps.',
+  tags: [{ name: 'Not open for work' }, { name: 'Available for mentoring' }, { name: 'Working on side projects and certs.' }, { name: 'R35 GT-R Owner' },  ],
   action: {
     label: 'Download CV',
     url: '/cv.pdf',
