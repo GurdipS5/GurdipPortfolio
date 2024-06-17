@@ -2,6 +2,7 @@ import type { ExperienceSection } from '@/types/sections/experience-section.type
 import type { ReadonlyDeep } from 'type-fest';
 import { facebook, github, linkedin, twitter, website } from '../helpers/links';
 import {
+  eks,
   azure,
   azuredevops,
   aws,
@@ -12,6 +13,7 @@ import {
   octopusdeploy,
   proget,
   sonarqube,
+  swagger,
   teamcity,
   terraform
 
@@ -59,7 +61,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [csharp(), kubernetes(), helm(), sonarqube(), azuredevops(), octopusdeploy(), proget(), teamcity() ]
+        tags: [csharp(), kubernetes(), helm(), sonarqube(), azuredevops(), octopusdeploy(), proget(),  swagger(), teamcity() ]
       },
       links: [website({ url: '#' }) ],
     },
@@ -69,11 +71,12 @@ const experienceSectionData = {
       image: import('@/assets/logos/reed.png'),
       dates: [new Date('2016-09'), new Date('2016-10')],
       description: `
-      - Worked on a cost cutting campaign,
+      - Achieved significant cost savings by analyzing and optimizing AWS usage, resulting in 20% reduction in monthly expenses. This involved educating developers, and using native tooling such as AWS Cloud Explorer.
+      - Deployed Kong, as an API Gateway for our Kubernetes microservices. This helped improve reliability and developer productivity, by offloading
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [aws(), azuredevops() ]
+        tags: [aws(), azuredevops(), eks() ]
       },
       links: [twitter({ url: '#' }), github({ url: '#' })],
     },

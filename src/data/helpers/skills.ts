@@ -83,6 +83,14 @@ export const dotnet = createSkillFactory({
   url: 'https://azure.com/',
 });
 
+export const eks = createSkillFactory({
+  name: 'Amazon EKS',
+  icon: 'simple-icons:amazoneks',
+  iconColor: '#FF9900',
+  url: 'https://azure.com/',
+});
+
+
 export const eslint = createSkillFactory({
   name: 'ESLint',
   icon: 'simple-icons:eslint',
@@ -124,14 +132,21 @@ export const helm = createSkillFactory({
 export const kubernetes = createSkillFactory({
   name: 'Kubernetes',
   icon: 'simple-icons:kubernetes',
-  iconColor: '##326CE5',
+  iconColor: '#326CE5',
+  url: 'https://eslint.org/',
+});
+
+export const kong = createSkillFactory({
+  name: 'Kong',
+  icon: 'simple-icons:kong',
+  iconColor: '#003459',
   url: 'https://eslint.org/',
 });
 
 export const npm = createSkillFactory({
   name: 'NPM',
   icon: 'simple-icons:npm',
-  iconColor: '##326CE5',
+  iconColor: '#CB3837',
   url: 'https://www.npmjs.com/',
 });
 
@@ -185,6 +200,13 @@ export const sonarqube = createSkillFactory({
   iconColor: '#4E9BCD',
   url: 'https://sonarqube.org',
 });
+
+export const swagger = createSkillFactory({
+  name: 'Swagger',
+  icon: 'simple-icons:swagger',
+  iconColor: '#85EA2D',
+  url: 'https://swagger.io/',
+})
 
 export const teamcity = createSkillFactory({
   name: 'Teamcity',
