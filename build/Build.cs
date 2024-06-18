@@ -43,6 +43,18 @@ class Build : NukeBuild
           Npm("run build");
         });
 
+            Target Changelog => _ => _
+                .DependsOn(Version)
+                .Description("Creates a changelog of the current commit.")
+                .AssuredAfterFailure()
+                .Executes(() =>
+                {
+                    if (IsLocalBuild)
+                        AutoChangelogTool($"-v  {OctopusVersion} -o {ChangeLogFile}",
+                            RootDirectory.ToString()); // Use .autochangelog settings in file.
+                });
+
+
     Target RunPrettier => _ => _
         .Executes(() =>
         {
@@ -52,7 +64,14 @@ class Build : NukeBuild
         .DependsOn(Restore)
         .Executes(() =>
         {
+          NerdbankGitversioning("");
+        });
 
+    Target NerdbankGitversioning => _ => _
+        .DependsOn(Restore)
+        .Executes(() =>
+        {
+          NerdbankGitversioning("");
         });
 
 }

@@ -7,8 +7,13 @@ import {
   azuredevops,
   aws,
   csharp,
+  git,
   helm,
   kubernetes,
+  nginx,
+  npm,
+  prometheus,
+  grafana,
   openai,
   octopusdeploy,
   proget,
@@ -35,14 +40,14 @@ const experienceSectionData = {
       description: `
         - Led a seamless migration of 50+ applications to AWS/Azure, resulting in a 30% reduction in infrastructure costs and improved scalability.
         - Implemented efficient resource allocation strategies, leading to a 30% reduction in cloud infrastructure costs.
-        - Successfully designed and deployed highly available Kubernetes clusters in production environments, supporting over 100 microservices.
+        - Successfully designed, deployed, and maintained highly available Kubernetes clusters in production environments, supporting over 100 microservices, ensuring seamless application delivery and scalability.
         - Developed common Terraform modules, reducing code duplication and time to release and leading to an increase in developer productivity and code standardisation, reducing bugs and time to deployment.
         - Worked as a DevOps Lead for the Dynamics 365 team, to improve their release management processes, automate TOIL and instil a DevOps culture of experimentation.
         - Built a Research and Development function to look at innovation and improving our digital products. This includes using AI, Machine Learning and Data Engineering in Azure.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [azure(), kubernetes(), helm(), openai(), terraform() ],
+        tags: [azure(), kubernetes(), helm(), openai(), sonarqube, git(), terraform(), npm() ],
       },
       links: [facebook({ url: '#' }), linkedin({ url: '#' })],
     },
@@ -61,7 +66,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [csharp(), kubernetes(), helm(), sonarqube(), azuredevops(), octopusdeploy(), proget(),  swagger(), teamcity() ]
+        tags: [csharp(), kubernetes(), helm(), nginx(), sonarqube(), prometheus(), grafana(), azuredevops(), octopusdeploy(), proget(),  swagger(), teamcity() ]
       },
       links: [website({ url: '#' }) ],
     },

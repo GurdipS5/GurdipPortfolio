@@ -33,6 +33,13 @@ export const ansible = createSkillFactory({
   url: 'https://www.apollographql.com/',
 });
 
+export const checkmarx = createSkillFactory({
+  name: 'Ansible',
+  icon: 'simple-icons:checkmarx',
+  iconColor: '#54B848',
+  url: 'https://www.apollographql.com/',
+});
+
 
 export const astro = createSkillFactory({
   name: 'Astro',
@@ -69,12 +76,34 @@ export const blazor = createSkillFactory({
   url: 'https://azure.com/',
 });
 
+export const nginx = createSkillFactory({
+  name: 'NGINX',
+  icon: 'simple-icons:nginx',
+  iconColor: '#009639',
+  url: 'https://azure.com/',
+});
+
 export const csharp = createSkillFactory({
   name: 'CSharp',
   icon: 'simple-icons:csharp',
   iconColor: '#512BD4',
   url: 'https://azure.com/',
 });
+
+export const owasp = createSkillFactory({
+  name: 'OWasp',
+  icon: 'simple-icons:owasp',
+  iconColor: '#512BD4',
+  url: 'https://azure.com/',
+});
+
+export const securityscorecard = createSkillFactory({
+  name: 'OWasp',
+  icon: 'simple-icons:securityscorecard',
+  iconColor: '#7033FD',
+  url: 'https://azure.com/',
+});
+
 
 export const dotnet = createSkillFactory({
   name: 'Dot NET',
@@ -91,19 +120,20 @@ export const eks = createSkillFactory({
 });
 
 
-export const eslint = createSkillFactory({
-  name: 'ESLint',
-  icon: 'simple-icons:eslint',
-  iconColor: '#F05032',
-  url: 'https://git-scm.com/',
-});
-
 export const Go = createSkillFactory({
   name: 'Go',
   icon: 'simple-icons:eslint',
   iconColor: '#00ADD8',
   url: 'https://git-scm.com/',
 });
+
+export const Splunk = createSkillFactory({
+  name: 'Go',
+  icon: 'simple-icons:splunk',
+  iconColor: '#000000',
+  url: 'https://git-scm.com/',
+});
+
 
 export const Git = createSkillFactory({
   name: 'Git',
@@ -173,16 +203,21 @@ export const postgreSql = createSkillFactory({
 
 export const proget = createSkillFactory({
   name: 'ProGet',
-  icon: 'simple-icons:postgresql',
+  icon: 'simple-icons:nuget',
   iconColor: '#4169E1',
   url: 'https://www.postgresql.org/',
 });
 
-
-
 export const pulumi = createSkillFactory({
   name: 'Pulumi',
   icon: 'simple-icons:pulumi',
+  iconColor: '#8A3391',
+  url: 'https://pulumi.com',
+});
+
+export const redis = createSkillFactory({
+  name: 'Redis',
+  icon: 'simple-icons:redis',
   iconColor: '#8A3391',
   url: 'https://pulumi.com',
 });
@@ -194,9 +229,38 @@ export const sqlserver = createSkillFactory({
   url: 'https://sonarqube.org',
 });
 
+export const git = createSkillFactory({
+  name: 'Sonatype',
+  icon: 'simple-icons:git',
+  iconColor: '#F05032',
+  url: 'https://snyk.io',
+});
+
+export const prometheus = createSkillFactory({
+  name: 'Prometheus',
+  icon: 'simple-icons:prometheus',
+  iconColor: '#E6522C',
+  url: 'https://snyk.io',
+});
+
+export const grafana = createSkillFactory({
+  name: 'Grafana',
+  icon: 'simple-icons:grafana',
+  iconColor: '#F46800',
+  url: 'https://snyk.io',
+});
+
+
 export const sonarqube = createSkillFactory({
   name: 'SonarQube',
   icon: 'simple-icons:sonarqube',
+  iconColor: '#4C4A73',
+  url: 'https://snyk.io',
+});
+
+export const snyk = createSkillFactory({
+  name: 'Snyk',
+  icon: 'simple-icons:snyk',
   iconColor: '#4E9BCD',
   url: 'https://sonarqube.org',
 });
