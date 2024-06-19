@@ -13,6 +13,7 @@ import {
   nginx,
   npm,
   prometheus,
+  redis,
   grafana,
   openai,
   octopusdeploy,
@@ -66,7 +67,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [csharp(), kubernetes(), helm(), nginx(), sonarqube(), prometheus(), grafana(), azuredevops(), octopusdeploy(), proget(),  swagger(), teamcity() ]
+        tags: [csharp(), kubernetes(), helm(), nginx(), sonarqube(), redis(), prometheus(), grafana(), azuredevops(), octopusdeploy(), proget(),  swagger(), teamcity() ]
       },
       links: [website({ url: '#' }) ],
     },

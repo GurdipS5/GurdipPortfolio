@@ -3,7 +3,8 @@ import type { ReadonlyDeep } from 'type-fest';
 import {  github,  website } from '../helpers/links';
 import {
   azure,
-  aws,
+  dotnet,
+  git,
   csharp,
   helm,
   kubernetes,
@@ -49,7 +50,7 @@ const portfolioSectionData = {
         'Kinderworx is a B2B SAAS app for managing your nursery.',
       tagsList: {
         title: 'Technologies',
-        tags: [csharp(), azure(), aws(), postgreSql(), kubernetes(), helm(), octopusdeploy(), teamcity()],
+        tags: [csharp(), dotnet(), azure(), git(),  postgreSql(), kubernetes(), helm(), octopusdeploy(), teamcity()],
       },
       links: [website({ url: '#' }), github({ url: '#' })],
     }

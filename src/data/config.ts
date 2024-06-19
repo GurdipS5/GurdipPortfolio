@@ -11,9 +11,9 @@ const config = {
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
+    title: 'Gurdip Sira - DevOps Lead',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
+      'Specialist in CICD pipelines, infrastructure automation and enhancing team communication. My expertise in CI/CD, cloud services, and microservices architecture ensures rapid, reliable, and scalable software deployment.',
     faviconPath: '/src/assets/my-image.jpeg',
   },
   pdf: {
