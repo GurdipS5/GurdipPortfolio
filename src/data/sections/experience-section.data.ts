@@ -12,6 +12,7 @@ import {
   kubernetes,
   nginx,
   npm,
+  kong,
   prometheus,
   redis,
   grafana,
@@ -82,7 +83,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [aws(), azuredevops(), eks() ]
+        tags: [aws(), azuredevops(), kong(), eks() ]
       },
       links: [twitter({ url: '#' }), github({ url: '#' })],
     },

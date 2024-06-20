@@ -12,9 +12,9 @@ const favoritesSectionData = {
     title: 'Books I read',
     data: [
       {
-        image: import('@/assets/favorites/books/book-1.jpeg'),
-        title: 'The Pragmatic Programmer: From Journeyman to Master',
-        author: 'Andy Hunt, Dave Thomas',
+        image: import('@/assets/favorites/books/91YfNb49PLL._AC_UF1000,1000_QL80_.jpg'),
+        title: 'Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems',
+        author: 'Martin Kleppmann',
         url: 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer',
       },
       {
