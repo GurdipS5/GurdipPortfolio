@@ -19,7 +19,7 @@ class Build : NukeBuild
     ///   - Microsoft VisualStudio     https://nuke.build/visualstudio
     ///   - Microsoft VSCode           https://nuke.build/vscode
 
-   [PathVariable]
+   [PathVariable("npm")]
    readonly Tool Npm;
 
    [PathVariable("")]
